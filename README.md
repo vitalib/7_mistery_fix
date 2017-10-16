@@ -12,8 +12,8 @@ FUNCTIONS
 
 
 EXAMPLE OF USAGE
-    from quadratic_equation import get_roots
-    roo1, root2 = get_roots(1, -2, 1)
+from quadratic_equation import get_roots
+roo1, root2 = get_roots(1, -2, 1)
 
 # Как запустить
 
