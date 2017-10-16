@@ -6,9 +6,9 @@ Solves quadratic equation ax^2 + bx + c = 0 for non-complex decisions, returning
 
 FUNCTIONS
 
-'''python
+```python
 get_roots(a, b, c)
-'''
+```
 
     Arguments a, b, c - are coefficients of quadratic equation ax^2 + bx + c = 0. Returns tuple of roots -(root1, root2). In case descriminant equals to zero returns (root1, None), for negative discriminant returns (None, None).
 
@@ -16,10 +16,10 @@ get_roots(a, b, c)
 
 EXAMPLE OF USAGE
 
-'''python
+```python
 from quadratic_equation import get_roots
 roo1, root2 = get_roots(1, -2, 1)
-'''
+```
 
 # Как запустить
 
