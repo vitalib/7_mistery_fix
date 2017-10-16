@@ -1,10 +1,19 @@
 # Решатель квадратных уравнений
 
-[TODO. Здесь будет описание проекта]
+Solves quadratic equation ax^2 + bx + c = 0 for non-complex decisions, returning roots as a tuple (root1, root2)
 
 # Как использовать
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
+FUNCTIONS
+    get_roots(a, b, c)
+
+    Arguments a, b, c - are coefficients of quadratic equation ax^ + bx + c = 0. Returns tuple of roots -(root1, root2). In case descriminant equals to zero returns (root1, None), for negative discriminant returns (None, None).
+
+
+
+EXAMPLE OF USAGE
+    from quadratic_equation import get_roots
+    roo1, root2 = get_roots(1, -2, 1)
 
 # Как запустить
 
