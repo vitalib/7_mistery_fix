@@ -1,21 +1,11 @@
 # Решатель квадратных уравнений
-
-Solves quadratic equation ax^2 + bx + c = 0 for non-complex decisions, returning roots as a tuple (root1, root2)
+Решает квадртное уравнение вида ax^2 + bx + c = 0.
 
 # Как использовать
+Скрипт содержит одну функцию get_roots(a, b, c), в которой аргументы a, b, c являются соответствующими 
+коэффициенатами квадратного уровнения. Функция возвращает кортеж, состоящий из 2-х корней уравнения.
 
-FUNCTIONS
-
-```python
-get_roots(a, b, c)
-```
-
-    Arguments a, b, c - are coefficients of quadratic equation ax^2 + bx + c = 0. Returns tuple of roots -(root1, root2). In case descriminant equals to zero returns (root1, None), for negative discriminant returns (None, None).
-
-
-
-EXAMPLE OF USAGE
-
+Пример использования
 ```python
 from quadratic_equation import get_roots
 roo1, root2 = get_roots(1, -2, 1)
